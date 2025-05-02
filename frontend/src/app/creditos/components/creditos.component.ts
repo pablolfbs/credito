@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Credito } from 'src/app/entity/credito';
-import { CreditoService } from '../credito.service';
-import { CreditosService } from '../creditos.service';
+import { CreditoService } from '../services/credito.service';
+import { CreditosService } from '../services/creditos.service';
 
 @Component({
   selector: 'app-creditos',
